@@ -1,5 +1,5 @@
 local module = {
-	owner = "Boxofkrain#0000", -- Do NOT change this nickname
+	owner = "Boxofkrain#0000" -- Do NOT change this nickname
 }
 
 -->> Maps system <<--
