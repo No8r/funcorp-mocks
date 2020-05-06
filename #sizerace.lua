@@ -1,5 +1,6 @@
 local module = {
 	owner = "Boxofkrain#0000" -- Do NOT change this nickname
+	map_time = 1.5 * 60 -- Do NOT change the number "60". "1.5" means 1 and a half minute. You can change that.
 }
 
 -->> Maps system <<--
@@ -90,7 +91,6 @@ local defaultKeys = getKeys(0.3, 0.6, 1, 2.1, 3.5)
 local keys = defaultKeys
 
 local lastMapUpdatedKeys = false
-local gameTime = 90
 local miceInfo = { }
 
 function eventNewGame()
@@ -106,6 +106,7 @@ function eventNewGame()
 		tfm.exec.changePlayerSize(nick, 1)
 	end
 
+	local gameTime = module.game_time
 	local xml = tfm.get.room.xmlMapInfo
 	if xml then
 		xml = xml.xml
