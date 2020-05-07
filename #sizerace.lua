@@ -1,5 +1,5 @@
 local module = {
-	owner = "Boxofkrain#0000" -- Do NOT change this nickname
+	owner = "Boxofkrain#0000", -- Do NOT change this nickname
 	map_time = 1.5 * 60 -- Do NOT change the number "60". "1.5" means 1 and a half minute. You can change that.
 }
 
