@@ -22,6 +22,16 @@ local translations = {
 
 		won = "venceu!"
 	},
+	ar = {
+		-- Init
+		welcome = "!هدفك أن تكون الناجي[#cannonup-funcorp] \n<J><S>https://atelier801.com/topic?f=6&t=859067 إرسال الخرائط في\n\t<J>. Bolodefchoco#0000 قُم بالتبليغ عن أي مشكلة لـ",
+
+		-- Info
+		nowinner = "!لَم يفز أحد",
+
+		-- Simple words
+		won = "!فاز"
+	},
 }
 local translation = translations[tfm.get.room.community] or translations.en
 
