@@ -68,6 +68,11 @@ do
 			greeting = "Salut ! Ravi de te voir en funcorp-#sizerace ! Toutes les informations dont tu as besoin sont sur le bouton Aide.",
 			help = "Aide",
 			guide = "Bienvenue en #sizerace ! Change la taille de ta souris pour gagner les différents niveaux des différentes maps. Tu peux changer la taille de ta souris toutes les 2 secondes. Sois le plus rapide et amuse-toi !\n\n<b>Utilise les touches X, C, V, B, N pour changer ta taille</b>\n\n<a href='event:close'>Fermer</a>"
+		},
+		ar = {
+			greeting = ".جميع المعلومات التي تحتاجها موجودة في نافذة المُساعدة ! funcorp-#sizerace مرحبًا! من الرائع رؤيتك في",
+			help = "مُساعدة",
+			guide = "!قم بتغيير جحم فأرك و كسب خرائط مختلفة بمستوى صعوبة مختلفة ،يمكنك تغيير حجم فأرك كُل ثانيتين كُن الأسرع و استمتع !#sizerace مرحبًا بك في\n\n<b>لتغيير حجمك X, C, V, B, N قم باستعمال الأزرار</b>\n\n<a href='event:close'>إغلاق</a>"
 		}
 	}
 
